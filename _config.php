@@ -48,6 +48,8 @@ if (isset($_COOKIE['user']))
 else
     $user = false;
 
+// dump($user, false);
+
 /*************************
  * Funções de uso geral. *
  *************************/
