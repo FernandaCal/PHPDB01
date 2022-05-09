@@ -180,8 +180,19 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
             <h3>Oba!</h3>
             <p>Seu cadastro foi atualizado com sucesso!</p>
             <hr class="divider">
-            <p class="text-center"><a href="/"><i class="fa-solid fa-house fa-fw"></i> Página inicial</a></p>
+            <div class="user-links">
 
+                <a href="/user/profile/">
+                    <i class="fa-solid fa-address-card fa-fw"></i>
+                    Ver Perfil
+                </a>
+
+                <a href="/">
+                    <i class="fa-solid fa-house fa-fw"></i>
+                    Página inicial
+                </a>
+
+            </div>
         </div>
 
         <script>
